@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>MY Web</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">作品集</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <div class="portfolio-intro">
+                <h1>我的作品集</h1>
+                <p>探索我的设计项目，从概念到实现的完整过程</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="ui">UI设计</button>
+             
+                <button class="filter-btn" data-filter="mobile">海报设计</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="ui mobile">
+                    <div class="project-image">
+                        <img src="../img/img01.jpg" >
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>设计稿手绘</h3>
+                                <div class="project-tags">
+                                    <span class="tag">个人设计</span>
+                                    <span class="tag">多样化</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="1">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="ui">
+                    <div class="project-image">
+                        <img src="../img/img02.jpg" >
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>ui界面设计</h3>
+                                <div class="project-tags">
+                                    <span class="tag">品牌设计</span>
+                                    <span class="tag">视觉识别</span>
+                                    <span class="tag">简约主题</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="2">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="ui">
+                    <div class="project-image">
+                        <img src="../img/img03.jpg" >
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>ui界面设计</h3>
+                                <div class="project-tags">
+                                    <span class="tag">品牌设计</span>
+                                    <span class="tag">视觉识别</span>
+                                    <span class="tag">简约主题</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="3">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="ui">
+                    <div class="project-image">
+                        <img src="../img/img04.jpg">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>ui界面设计</h3>
+                                <div class="project-tags">
+                                    <span class="tag">品牌设计</span>
+                                    <span class="tag">视觉识别</span>
+                                    <span class="tag">简约主题</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="4">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image">
+                        <img src="../img/img05.jpg" >
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>海报设计</h3>
+                                <p>多主题海报设计</p>
+                                <div class="project-tags">
+                                    <span class="tag">移动应用</span>
+                                    <span class="tag">多主题</span>
+                                    <span class="tag">海报</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="5">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item"  data-category="mobile">
+                    <div class="project-image">
+                        <img src="../img/img06.jpg" >
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>海报设计</h3>
+                                <p>多主题海报设计</p>
+                                <div class="project-tags">
+                                    <span class="tag">移动应用</span>
+                                    <span class="tag">多主题</span>
+                                    <span class="tag">海报</span>
+                                </div>
+                                <button class="btn btn-primary project-modal-btn" data-project="6">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+     <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MY Web</h3>
+                    <p>设计师 & 创意者</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="portfolio.html">作品集</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                        <li><a href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>服务</h4>
+                    <ul>
+                        <li>UI/UX设计</li>
+                        <li>品牌设计</li>
+                        <li>网站设计</li>
+                        <li>移动应用设计</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系信息</h4>
+                    <p><i class="fas fa-envelope"></i> example@example.com</p>
+                    <p><i class="fas fa-phone"></i> +86 138 0000 0000</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 北京, 中国</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 My Web. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
